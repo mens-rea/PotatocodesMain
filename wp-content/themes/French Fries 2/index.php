@@ -26,10 +26,10 @@
         <li><a id="secondrightnav" href="#second" title="About Us"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
         <li><a id="thirdrightnav" href="#third" title="Our Guarantee"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
         <!--<li><a id="fourthrightnav" href="#fourth" title="Next Section"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>-->
-        <li><a id="fifthrightnav" href="#fifth" title="Sample Work 1"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
-        <li><a id="sixthrightnav" href="#sixth" title="Sample Work 2"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
-        <li><a id="seventhrightnav" href="#seventh" title="Sample Work 3"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
-        <li><a id="eightrightnav" href="#eight" title="Sample Work 4"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
+        <li><a id="fifthrightnav" href="#fifth" title="University of Santo Tomas - Office for Admissions"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
+        <li><a id="sixthrightnav" href="#sixth" title="University of Santo Tomas - Faculty of Engineering"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
+        <li><a id="seventhrightnav" href="#seventh" title="QCPS Inc."><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
+        <li><a id="eightrightnav" href="#eight" title="University of Santo Tomas - Computer Science Department"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
       </ul>
           
       <div class="par-sections" id="intro">
@@ -374,36 +374,32 @@
       <!-- PORTFOLIO SECTION -->
 
       <div class="par-sections port-sections" id="fifth"  style="padding-top: 10px;">
-            
+        
         <!-- FIRST PORT -->
+
         <div class="row">
           <div class="container">
-            <div class="col-md-12" style="min-height: 500px; padding-bottom: 200px;">
-                 
+            <div class="col-md-12" style="min-height: 500px; padding-bottom: 200px;">                
               <div class="col-md-12">
-
                 <img src="<?php bloginfo('template_directory'); ?>/images/portfolio-case.png" style="height: 100px; margin-top: 40px;">      
                 <h1>OUR WORKS</h1>
-                        
                 <img class="img-responsive portfolio-img" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/ofad2-full.png">
                 <img class="img-responsive portfolio-img2" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/ofad1-full.png">
                 <div class="col-md-12" style="overflow: hidden;">
+                  <!--
                   <i class="fa fa-tablet port-icons port-responsive" title="responsive design"></i>
                   <i class="fa fa-certificate port-icons port-launched" title="launched"></i>
+                  -->
                 </div>
                 <div class="col-md-12">
                   <div class="port-title-container">
                     <h3 class="port-title"><a href="http://ofad.ust.edu.ph" target="_blank">UNIVERSITY OF SANTO TOMAS</br> OFFICE FOR ADMISSIONS</a></h3>
                   </div>
                 </div>
-      
               </div>
-
-
             </div>
           <div>
         </div>    
-
       </div> <!--First Port-->
 
       <div class="par-sections" id="sixth" style="padding-top: 10px;">
@@ -420,9 +416,11 @@
                   
                   <img class="img-responsive portfolio-img" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/engg2-full.png" />
                   <img class="img-responsive portfolio-img2" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/engg1-full.png" />
+                  <!-- 
                   <div class="col-md-12" style="overflow: hidden; margin-botto">
                     <i class="fa fa-certificate port-icons port-launched" title="launched"></i> 
                   </div>
+                  -->
                   <div class="col-md-12">
                     <div class="port-title-container">
                       <h3 class="port-title">
@@ -458,9 +456,11 @@
 
                     <img class="img-responsive portfolio-img" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/qcps1-full.png">
                     <img class="img-responsive portfolio-img2" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/qcps2-full.png">
+                    <!-- 
                     <div class="col-md-12" style="overflow: hidden;">
                       <i class="fa fa-tablet port-icons port-responsive" title="responsive design"></i>
                     </div>
+                    -->
                     <div class="col-md-12">
                       <div class="port-title-container">
                         <h3 class="port-title">
@@ -494,13 +494,15 @@
 
                     <img class="img-responsive portfolio-img" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/cs2-full.png">
                     <img class="img-responsive portfolio-img2" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/cs1-full.png">
+                    <!-- 
                     <div class="col-md-12" style="overflow: hidden;">
                       <i class="fa fa-flask port-icons port-concept" title="Design Concept"></i>
-                    </div>
+                    </div> 
+                    -->
                     <div class="col-md-12">
                       <div class="port-title-container">
                         <h3 class="port-title">
-                          <a href="#eight">UNIVERSITY OF SANTO TOMAS</br> COMPUTER SCIENCE DEPARTMENT</a> 
+                          UNIVERSITY OF SANTO TOMAS</br> COMPUTER SCIENCE DEPARTMENT
                         </h3>
                       </div>
                     </div>
