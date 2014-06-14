@@ -130,6 +130,10 @@ body {
   border-top: 3px solid white;
 }
 
+#navbar1 ul li a{
+  text-align: left;
+}
+
 .logo-holder{
   border-radius: 100%; 
   height: 75px;
