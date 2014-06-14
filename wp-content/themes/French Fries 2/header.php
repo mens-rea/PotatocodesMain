@@ -53,21 +53,17 @@
 	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.localscroll-1.2.7-min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.scrollTo-1.4.2-min.js"></script>
 
-	<!--  -->
-	
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/animate.css">
 	<link href="<?php bloginfo('template_directory');?>/css/hover.css" rel="stylesheet" media="all">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/common.css" />
-        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style7.css" />
-        <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/icons.css" />
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style3.css" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/font-awesome-4.1.0/css/font-awesome.min.css">
-		<!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
-
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style7.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/icons.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style3.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="<?php echo bloginfo('template_directory');?>/css/font-awesome-4.1.0/css/font-awesome.min.css">
 
 	<script type="text/javascript">
 	$(document).ready(function(){
