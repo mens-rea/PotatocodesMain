@@ -1,0 +1,309 @@
+/*
+Theme Name: French Fries
+Theme URI: http://www.potatocodes.com
+Description: A Custom Theme for Potatocodes
+Author: Juan Miguel G. Alvarez
+Author URI: http://www.potatocodes.com
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+/* font styling */
+
+@font-face {
+	font-family: 'Kontrapunkt-Light';
+	src: url('fonts/Kontrapunkt-Light.eot');
+	src: url('fonts/Kontrapunkt-Light.otf');
+}
+@font-face {
+	font-family: 'Sansation_Regular';
+	src: url('fonts/Sansation_Regular.eot');
+	src: url('fonts/Sansation_Regular.ttf');
+}
+
+body{
+	
+}
+#logo{
+	width: 200px;
+}
+#featured-section{
+	background: url("images/background.jpg");
+}
+#featured-section h1{
+	color: white;
+}
+#featured-section h5{
+	color: white;
+}
+#featured-projects-section{
+	background: url("images/featured-works-background.jpg");
+}
+.featured-projects-container{
+	color: white; float: left; margin: 0 auto; position: relative; min-height: 175px; 
+}
+.featured-projects-container a{
+	color: white;
+	text-decoration: none;
+}
+
+.featured-projects-container img{
+	height:125px; width:225px; margin-top: 0px; margin-bottom: 20px;
+}
+.main-featured-projects-container{
+	 height: auto; text-align: center; overflow: hidden; padding-top: 50px; padding-bottom: 50px;
+}
+.main-perks-container{
+
+}
+.perks-container{
+	text-align: center; min-height: 150px; font-size: 14px;
+}
+.perks-container img{
+	margin-top: 20px;
+}
+.main-perks-container{ padding-top: 25px; padding-bottom: 25px;}
+
+.perk-divs{
+	height: 110px;
+	width: 110px;
+	margin: 0 auto;
+	margin-top: 20px;
+	  -webkit-border-radius: 30px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+          border-radius: 200px;
+}
+.perks-desc-containers{
+	display: none;
+	-webkit-animation: myanim 5s; /* Chrome, Safari 5+ */
+     -moz-animation: myanim 5s; /* Firefox 5-15 */
+       -o-animation: myanim 5s; /* Opera 12.00 */
+          animation: myanim 5s;
+}
+
+#perk1{
+	background: url("images/image elements/perks1.png");
+}
+#perk2{
+	background: url("images/image elements/perks2.png");
+}
+#perk3{
+	background: url("images/image elements/perks3.png");
+}
+#perk4{
+	background: url("images/image elements/perks4.png");
+}
+
+#perk1:hover{
+	background: url("images/image elements/perks1-hover.png");
+}
+#perk2:hover{
+	background: url("images/image elements/perks2-hover.png");
+}
+#perk3:hover{
+	background: url("images/image elements/perks3-hover.png");
+}
+#perk4:hover{
+	background: url("images/image elements/perks4-hover.png");
+}
+
+#main-navigation ul{
+	float:right;margin-top: 30px;list-style: none;
+}
+#main-navigation ul li a{
+	color: black;
+}
+
+#left-side-bottom{
+	background-color: #a7d700;
+	font-family: 'Kontrapunkt-Light','sans-serif';
+	min-height: 350px;
+	cursor: pointer;
+}
+#left-side-bottom h2{
+	padding: 0px;
+	margin: 0px;
+	margin-left: 20px;
+	margin-top: 75px;
+	font-size: 42px;
+}
+#left-side-bottom h3{
+	padding: 0px;
+	margin: 0px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#left-side-bottom p{
+	text-align: justify; 
+	padding: 0px 20px;
+	margin-top: 10px;
+}
+#left-side-bottom:hover{
+	background-color: black;
+	color: white;
+}
+#left-side-bottom:hover h2{
+	 -webkit-animation: fromleft 300ms ease;
+    -moz-animation: fromleft 300ms ease;
+    -ms-animation: fromleft 300ms ease;
+}
+#left-side-bottom:hover h3{
+	 -webkit-animation: fromleft 600ms ease;
+    -moz-animation: fromleft 600ms ease;
+    -ms-animation: fromleft 600ms ease;
+}
+#left-side-bottom:hover p{
+	 -webkit-animation: fromleft 900ms ease;
+    -moz-animation: fromleft 900ms ease;
+    -ms-animation: fromleft 900ms ease;
+}
+
+#right-side-bottom{
+	min-height: 350px;
+	background-color: #0092c8;
+	color: white;
+	-webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Sansation_Regular','sans-serif';
+    cursor: pointer;
+}
+#right-side-bottom a{
+	color: white;
+	text-decoration: none;
+	float: left;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 20px;
+}
+#right-side-bottom:hover{
+	background-color: #000;
+	color: white;
+	-webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+#right-side-bottom:hover a{
+	color: #0092c8;
+	font-weight: 700;
+}
+#right-side-bottom:hover h3{
+	-webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+#right-side-bottom:hover #top-sub{
+	-webkit-animation: fromtop 300ms ease;
+    -moz-animation: fromtop 300ms ease;
+    -ms-animation: fromtop 300ms ease;
+}
+#right-side-bottom:hover #bottom-sub{
+    -webkit-animation: frombottom 300ms ease;
+    -moz-animation: frombottom 300ms ease;
+    -ms-animation: frombottom 300ms ease;
+}
+#right-side-bottom:hover .member-desc{
+	-webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+#right-side-bottom:hover #mem1 img{
+	-webkit-animation: frombottom 400ms ease;
+    -moz-animation: frombottom 400ms ease;
+    -ms-animation: frombottom 400ms ease;
+}
+#right-side-bottom:hover #mem1 p{
+	-webkit-animation: frombottom 700ms ease;
+    -moz-animation: frombottom 700ms ease;
+    -ms-animation: frombottom 700ms ease;
+}
+#right-side-bottom:hover #mem1 h4{
+	-webkit-animation: frombottom 400ms ease;
+    -moz-animation: frombottom 400ms ease;
+    -ms-animation: frombottom 400ms ease;
+}
+#right-side-bottom:hover #mem2 img{
+	-webkit-animation: fromtop 600ms ease;
+    -moz-animation: fromtop 600ms ease;
+    -ms-animation: fromtop 600ms ease;
+}
+#right-side-bottom:hover #mem2 h4{
+	-webkit-animation: fromtop 600ms ease;
+    -moz-animation: fromtop 600ms ease;
+    -ms-animation: fromtop 600ms ease;
+}
+#right-side-bottom:hover #mem2 p{
+	-webkit-animation: fromtop 300ms ease;
+    -moz-animation: fromtop 300ms ease;
+    -ms-animation: fromtop 300ms ease;
+}
+.member-desc img{
+	margin: 0 auto;
+}
+.member-desc{
+	text-align: center;
+	padding-top: 20px;
+}
+.member-desc p{
+	padding-top: 10px;
+	text-align: justify;
+	font-family: 'Sansation_Regular','sans-serif';
+}
+
+/* ANIMATION SHTUFF */
+
+@-webkit-keyframes myanim {
+  0%   { rotate(120deg); }
+  50%  { rotate(240deg); }
+  100% { rotate(360deg); }
+}
+
+@-webkit-keyframes frombottom{
+	from {
+        -webkit-transform: translateY(300%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+    }
+}
+@-webkit-keyframes fromtop{
+	from {
+        -webkit-transform: translateY(-300%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes fromleft{
+	from {
+        -webkit-transform: translateX(-300%);
+    }
+    to {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+
+.hide {  
+  display: none;  
+}  
+
+.show{
+	display: block;
+};
