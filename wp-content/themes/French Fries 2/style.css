@@ -402,6 +402,13 @@ body {
   //color: #ede9e9; 
   color: #333333;
 }
+
+.port-title a:hover{
+  color: #1694cb;;
+}
+.port-title a{
+  color: #333333;
+}
 .port-icons{
   font-size: 2em; 
   float:right; 

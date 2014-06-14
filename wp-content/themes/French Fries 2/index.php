@@ -393,7 +393,7 @@
                 </div>
                 <div class="col-md-12">
                   <div class="port-title-container">
-                    <h3 class="port-title"><a href="http://ofad.ust.edu.ph" target="_blank" style="color: #333333;">UNIVERSITY OF SANTO TOMAS</br> OFFICE FOR ADMISSIONS</a></h3>
+                    <h3 class="port-title"><a href="http://ofad.ust.edu.ph" target="_blank">UNIVERSITY OF SANTO TOMAS</br> OFFICE FOR ADMISSIONS</a></h3>
                   </div>
                 </div>
       
@@ -414,7 +414,7 @@
                  
               <div class="col-md-12" style="padding: 0px 30px;">
                           
-                <a href="http://engineering.ust.edu.ph" target="_blank">
+                <!--<a href="http://engineering.ust.edu.ph" target="_blank">-->
                   
                   <div>           
                   
@@ -426,14 +426,14 @@
                   <div class="col-md-12">
                     <div class="port-title-container">
                       <h3 class="port-title">
-                        UNIVERSITY OF SANTO TOMAS</br> FACULTY OF ENGINEERING
+                        <a href="http://engineering.ust.edu.ph" target="_blank"> UNIVERSITY OF SANTO TOMAS</br> FACULTY OF ENGINEERING</a>    
                       </h3>
                     </div>
                   </div>
 
                   </div>
 
-                </a>
+                <!--</a>-->
                       
               </div>
 
@@ -452,7 +452,7 @@
                  
               <div class="col-md-12" style="padding: 0px 30px;">
                         
-                <a href="http://potatocodes1.comze.com" target="_blank">
+                <!--<a href="http://potatocodes1.comze.com" target="_blank">-->
 
                   <div>
 
@@ -462,12 +462,16 @@
                       <i class="fa fa-tablet port-icons port-responsive" title="responsive design"></i>
                     </div>
                     <div class="col-md-12">
-                      <div class="port-title-container"><h3 class="port-title">QCPS INCORPORATED</h3></div>
+                      <div class="port-title-container">
+                        <h3 class="port-title">
+                          <a href="http://potatocodes1.comze.com" target="_blank">QCPS INCORPORATED</a>     
+                        </h3>
+                      </div>
                     </div>
 
                   </div>
 
-                </a>
+                <!--</a>-->
                     
               </div>
 
@@ -486,16 +490,22 @@
                    
                 <div class="col-md-12" style="padding: 0px 30px;">
                           
-                  <a href="#" target="_blank">
+                  <!--<a href="#" target="_blank">-->
+
                     <img class="img-responsive portfolio-img" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/cs2-full.png">
                     <img class="img-responsive portfolio-img2" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/cs1-full.png">
                     <div class="col-md-12" style="overflow: hidden;">
                       <i class="fa fa-flask port-icons port-concept" title="Design Concept"></i>
                     </div>
                     <div class="col-md-12">
-                      <div class="port-title-container"><h3 class="port-title">UNIVERSITY OF SANTO TOMAS</br> COMPUTER SCIENCE DEPARTMENT</h3></div>
+                      <div class="port-title-container">
+                        <h3 class="port-title">
+                          <a href="#eight">UNIVERSITY OF SANTO TOMAS</br> COMPUTER SCIENCE DEPARTMENT</a> 
+                        </h3>
+                      </div>
                     </div>
-                  </a>
+                  
+                  <!-- </a> -->
                       
                 </div>
 
