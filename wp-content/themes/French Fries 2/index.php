@@ -43,16 +43,17 @@
 
                           <div id="main-logo-draw" class="drawings mac">
 
-                            <img  id="logoimage" class="illustration" src="<?php bloginfo('template_directory');?>/images/logo.png" alt="iMac Illustration"  height="200"/>
-                            <?php 
+                           <?php 
                             $ua = strtolower($_SERVER['HTTP_USER_AGENT']); 
                             if(stripos($ua,'android') !== false) { 
-
-
+                              ?>
+                               <img src="<?php bloginfo('template_directory');?>/images/logo.png" alt="iMac Illustration"  height="200"/>
+                            
+                              <?php
                             }
                             else{
                             ?>
-
+                            <img  id="logoimage" class="illustration" src="<?php bloginfo('template_directory');?>/images/logo.png" alt="iMac Illustration"  height="200"/>
                             <svg class="line-drawing" id="mac"preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
                               <path d="m 59.30876,2.30872 c 0,0 -30.74232,-2.97288 -42.61303,32.46502 c 0,0 6.74232,6.97288 38.61303,26.46502 c 0,0 -50,5 -50,2 c 0,0 -2,10 -4,35" />
                               <path d="m 59.30876,2.30872 c 0,0 7.74232,-2.97288 24.61303,10.46502 c 0,0 25.74232,25.97288 25.11303,65.46502 c 0,0 -23.74232,14.97288 -49.61303,14.46502 c 0,0 25.74232,20.97288 50.61303,18.46502" />
