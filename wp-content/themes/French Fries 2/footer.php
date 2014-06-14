@@ -1,20 +1,3 @@
-	<!-- START FOOTER -->
-	  <!--
-	   <div id="footer">
-
-	   		<div class="row">
-	        <div class="container">
-	          <div class="col-md-12">
-
-	            <h6>FOOTER</h6>
-	            
-	          </div>
-	        </div>
-		   	</div>
-
-	   </div> -->
-	   <!--   END FOOTER   -->
-
 	</div>
 
 	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/svganimations.js"></script>
@@ -25,48 +8,65 @@
 	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/modernizr.custom.79639.js"></script> 
 	<script src="<?php bloginfo('template_directory');?>/js/modernizr.custom.js"></script>
 	<script>
-	 new WOW().init();
+	
+	new WOW().init();
 
+	
+	$(window).load(function(){    
+	    $("#spnr").remove();
+	});
+	
+	/*
 	function hover(element) {
 		element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/ofad-full.png');
 	}
 	function unhover(element) {
 	    element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/ofad-bw.png');
 	}
-
 	function hover2(element) {
 		element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/engg-full.png');
 	}
 	function unhover2(element) {
 	    element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/engg-bw.png');
 	}
-
 	function hover3(element) {
 		element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/qcps-full.png');
 	}
 	function unhover3(element) {
 	    element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/qcps-bw.png');
 	}
+	*/
+
+	//PARALLAX ANIMATIONS
+	$(document).ready(function(){
 
 
+		$('#nav-main').localScroll(800);
+		$('#nav').localScroll(800);
+		$('#nav1').localScroll(200);
+		$('#nav2').localScroll(200);
+		$('#nav3').localScroll(200);
+		//$('#nav4').localScroll(200);
+		$('#nav5').localScroll(200);
+		$('#navbacktotop').localScroll(200);
+		//.parallax(xPosition, speedFactor, outerHeight) options:
+		//xPosition - Horizontal position of the element
+		//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+		//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+		$('#intro').parallax("50%", 0.1);
+		$('#second').parallax("50%", 0.1);
+		$('.bg').parallax("50%", 0.1);
+		$('#third').parallax("50%", 0.1);
+	})
+
+
+	//GUARANTEE ANIMATION
 	function gclick1(){
-
-		/*$('#guarantee-content').fadeOut();*/
-
-		/*window.setTimeout(fadeInG(), 2000);*/
-
-		//document.getElementById('guarantee-title').innerHTML = 'MINDBLOWING ANIMATIONS';
-		//document.getElementById('guarantee-text').innerHTML = 'Using the latest css3, html5 and jquery technologies, we will provide for you that zoom and zing that every website needs.';
-
-		//$('#guarantee-content').fadeIn('slow');
-
 		$("#guarantee-content").fadeOut(function() {
 		  $(this).html("<h2>MINDBLOWING ANIMATIONS</h2><p class='light-font animated fadeIn wow' id='guarantee-text'>Presenting information in a clean and easy to remember way, while making it easy for your audience to sit back, relax and feast on the informational goodness.</span></p>").fadeIn('xfast');
 		});
-
 	}
 	function gclick2(){
-
 		$("#guarantee-content").fadeOut(function() {
 		  $(this).html("<h2>CLEAR INFORMATION</h2><p class='light-font animated fadeIn wow' id='guarantee-text'>Using the latest css3, html5 and jquery technologies, we will design for you that zoom and zing that every exceptional website needs.</span></p>").fadeIn('xfast');
 		});
@@ -87,7 +87,6 @@
 		});
 	}
 
-
 	function normalize(){
 		$("#guarantee1 .box-container6 .box6").attr('src', '<?php bloginfo('template_directory'); ?>/images/g3.png');
 		$("#guarantee2 .box-container6 .box6").attr('src', '<?php bloginfo('template_directory'); ?>/images/g1.png');
@@ -97,86 +96,52 @@
 	}
 
 	$('#guarantee1').click(function(){
-
 		normalize();
-
 		var oldSrc = "<?php bloginfo('template_directory'); ?>/images/g3.png";
-
 		$('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/g3.png');
 	   	$("#guarantee1 .box-container6 .box6").attr('src', '<?php bloginfo('template_directory'); ?>/images/g3hover.png');
 	});
-
 	$('#guarantee2').click(function(){
-
 		normalize();
-
 		var oldSrc = "<?php bloginfo('template_directory'); ?>/images/g1.png";
-
 		$('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/g1.png');
 	   	$("#guarantee2 .box-container6 .box6").attr('src', '<?php bloginfo('template_directory'); ?>/images/g1hover.png');
 	});
-
 	$('#guarantee3').click(function(){
-
 		normalize();
-
 		var oldSrc = "<?php bloginfo('template_directory'); ?>/images/g4.png";
-
 		$('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/g4.png');
 	   	$("#guarantee3 .box-container6 .box6").attr('src', '<?php bloginfo('template_directory'); ?>/images/g4hover.png');
 	});
-
 	$('#guarantee4').click(function(){
-
 		normalize();
-
 		var oldSrc = "<?php bloginfo('template_directory'); ?>/images/g2.png";
-
 		$('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/g2.png');
 	   	$("#guarantee4 .box-container6 .box6").attr('src', '<?php bloginfo('template_directory'); ?>/images/g2hover.png');
 	});
-
 	$('#guarantee5').click(function(){
-
 		normalize();
-
 		var oldSrc = "<?php bloginfo('template_directory'); ?>/images/g5.png";
-
 		$('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/g5.png');
 	   	$("#guarantee5 .box-container6 .box6").attr('src', '<?php bloginfo('template_directory'); ?>/images/g5hover.png');
 	});
 
-		/*
 
-	$('#firstlink').click(function(){
-	   $('.activeLinkClass').removeClass('activeLinkClass');
-	   $('#secondrightnav').addClass('activeLinkClass');
 
-	   
-	   var oldSrc = "<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png";
-	   
-	   $('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/nav.png');
-	   $('#secondrightnav').children().attr('src', '<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png');
-	});
-
-	*/
-
+	// SCROLLING FUNCTIONS
 	$(window).scroll(function() {
 	    var height = $(window).scrollTop();
 
-
-
 	    if(height<920){
-	    	$('.activeLinkClass').removeClass('activeLinkClass');
-	   		$('#firstrightnav').addClass('activeLinkClass');
-
-	   		var oldSrc = "<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png";
+	   		$('.activeLinkClass').removeClass('activeLinkClass');
+	   	   	$('#firstrightnav').addClass('activeLinkClass');
+	   	   	var oldSrc = "<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png";
 	   
-		   $('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/nav.png');
-		   $('#firstrightnav').children().attr('src', '<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png');
+		   	$('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/nav.png');
+		   	$('#firstrightnav').children().attr('src', '<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png');
 
-		   $('#header3').removeClass('stickToTop');
-		   $('#navbacktotop').removeClass('backtotopfixed');
+		   	$('#header3').removeClass('stickToTop');
+		   	$('#navbacktotop').removeClass('backtotopfixed');
 	    }
 	    else if(height>920 && height<1840){
 	    	$('.activeLinkClass').removeClass('activeLinkClass');
@@ -206,17 +171,6 @@
 		   $('#header3').addClass('stickToTop');
 		    $('#navbacktotop').addClass('backtotopfixed');
 	    }
-	    /*else if(height>2790&&height<3790){
-	    	$('.activeLinkClass').removeClass('activeLinkClass');
-	   		$('#fourthrightnav').addClass('activeLinkClass');
-
-	   		var oldSrc = "<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png";
-	   
-		   $('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/nav.png');
-		   $('#fourthrightnav').children().attr('src', '<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png');
-
-		   $('#header3').addClass('stickToTop');
-	    }*/
 	    else if(height>2790&&height<3590){
 	    	$('.activeLinkClass').removeClass('activeLinkClass');
 	   		$('#fifthrightnav').addClass('activeLinkClass');
