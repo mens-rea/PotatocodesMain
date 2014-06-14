@@ -1,9 +1,21 @@
 <?php get_header(); ?>
-
   
+  <?php 
+  $ua = strtolower($_SERVER['HTTP_USER_AGENT']); 
+  if(stripos($ua,'android') !== false) { 
+
+
+  }
+  else{
+  ?>
+
   <div id="spnr" class="cover">
   <div class="spinner"></div>
   </div>
+
+  <?php 
+  }
+  ?>
 
    <!-- START BODY -->
 
@@ -31,14 +43,28 @@
 
                           <div id="main-logo-draw" class="drawings mac">
 
-                            <img  id="logoimage" class="illustration" src="<?php bloginfo('template_directory');?>/images/logo.png" alt="iMac Illustration"  height="200"/>
+                           <?php 
+                            $ua = strtolower($_SERVER['HTTP_USER_AGENT']); 
+                            if(stripos($ua,'android') !== false) { 
+                              ?>
+                               <img src="<?php bloginfo('template_directory');?>/images/logo.png" alt="iMac Illustration"  height="200"/>
                             
+                              <?php
+                            }
+                            else{
+                            ?>
+                            <img  id="logoimage" class="illustration" src="<?php bloginfo('template_directory');?>/images/logo.png" alt="iMac Illustration"  height="200"/>
                             <svg class="line-drawing" id="mac"preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
                               <path d="m 59.30876,2.30872 c 0,0 -30.74232,-2.97288 -42.61303,32.46502 c 0,0 6.74232,6.97288 38.61303,26.46502 c 0,0 -50,5 -50,2 c 0,0 -2,10 -4,35" />
                               <path d="m 59.30876,2.30872 c 0,0 7.74232,-2.97288 24.61303,10.46502 c 0,0 25.74232,25.97288 25.11303,65.46502 c 0,0 -23.74232,14.97288 -49.61303,14.46502 c 0,0 25.74232,20.97288 50.61303,18.46502" />
                               <path d="m 59.30876,198.30872 c 0,0 25.74232,1.97288 35.61303,-27.46502 c 0,0 -8.74232,0.57288 -36.61303,-10.46502 c 0,0 25.74232,-5.97288 45.61303,-15.46502 c 0,0 9.74232,-25.97288 6.61303,-36.46502" />
                               <path d="m 59.30876,198.30872 c 0,0 -47.74232,1.97288 -55.61303,-62.46502 c 0,0 20.74232,2.97288 46.61303,-7.46502 c 0,0 -24.74232,-5.97288 -82.61303,-53.46502" />
                             </svg>
+
+                            <?php 
+                            }
+                            ?>
+                            
 
                             <div id="slide-content1" class="slide-content" style="text-align: center;">
                                 <h1 class="hidden-xs" style="font-size: 70px; font-family: 'Nexa'; font-weight: 600; letter-spacing: -4px;">Potatocodes</h1>
@@ -367,7 +393,7 @@
                 </div>
                 <div class="col-md-12">
                   <div class="port-title-container">
-                    <h3 class="port-title"><a href="http://ofad.ust.edu.ph" target="_blank" style="color: #333333;">UNIVERSITY OF SANTO TOMAS</br> OFFICE FOR ADMISSIONS</a></h3>
+                    <h3 class="port-title"><a href="http://ofad.ust.edu.ph" target="_blank">UNIVERSITY OF SANTO TOMAS</br> OFFICE FOR ADMISSIONS</a></h3>
                   </div>
                 </div>
       
@@ -388,7 +414,7 @@
                  
               <div class="col-md-12" style="padding: 0px 30px;">
                           
-                <a href="http://engineering.ust.edu.ph" target="_blank">
+                <!--<a href="http://engineering.ust.edu.ph" target="_blank">-->
                   
                   <div>           
                   
@@ -400,14 +426,14 @@
                   <div class="col-md-12">
                     <div class="port-title-container">
                       <h3 class="port-title">
-                        UNIVERSITY OF SANTO TOMAS</br> FACULTY OF ENGINEERING
+                        <a href="http://engineering.ust.edu.ph" target="_blank"> UNIVERSITY OF SANTO TOMAS</br> FACULTY OF ENGINEERING</a>    
                       </h3>
                     </div>
                   </div>
 
                   </div>
 
-                </a>
+                <!--</a>-->
                       
               </div>
 
@@ -426,7 +452,7 @@
                  
               <div class="col-md-12" style="padding: 0px 30px;">
                         
-                <a href="http://potatocodes1.comze.com" target="_blank">
+                <!--<a href="http://potatocodes1.comze.com" target="_blank">-->
 
                   <div>
 
@@ -436,12 +462,16 @@
                       <i class="fa fa-tablet port-icons port-responsive" title="responsive design"></i>
                     </div>
                     <div class="col-md-12">
-                      <div class="port-title-container"><h3 class="port-title">QCPS INCORPORATED</h3></div>
+                      <div class="port-title-container">
+                        <h3 class="port-title">
+                          <a href="http://potatocodes1.comze.com" target="_blank">QCPS INCORPORATED</a>     
+                        </h3>
+                      </div>
                     </div>
 
                   </div>
 
-                </a>
+                <!--</a>-->
                     
               </div>
 
@@ -460,16 +490,22 @@
                    
                 <div class="col-md-12" style="padding: 0px 30px;">
                           
-                  <a href="#" target="_blank">
+                  <!--<a href="#" target="_blank">-->
+
                     <img class="img-responsive portfolio-img" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/cs2-full.png">
                     <img class="img-responsive portfolio-img2" src="<?php bloginfo('template_directory'); ?>/images/Portfolio_Section/cs1-full.png">
                     <div class="col-md-12" style="overflow: hidden;">
                       <i class="fa fa-flask port-icons port-concept" title="Design Concept"></i>
                     </div>
                     <div class="col-md-12">
-                      <div class="port-title-container"><h3 class="port-title">UNIVERSITY OF SANTO TOMAS</br> COMPUTER SCIENCE DEPARTMENT</h3></div>
+                      <div class="port-title-container">
+                        <h3 class="port-title">
+                          <a href="#eight">UNIVERSITY OF SANTO TOMAS</br> COMPUTER SCIENCE DEPARTMENT</a> 
+                        </h3>
+                      </div>
                     </div>
-                  </a>
+                  
+                  <!-- </a> -->
                       
                 </div>
 

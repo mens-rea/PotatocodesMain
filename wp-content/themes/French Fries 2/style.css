@@ -130,6 +130,10 @@ body {
   border-top: 3px solid white;
 }
 
+#navbar1 ul li a{
+  text-align: left;
+}
+
 .logo-holder{
   border-radius: 100%; 
   height: 75px;
@@ -402,6 +406,13 @@ body {
   //color: #ede9e9; 
   color: #333333;
 }
+
+.port-title a:hover{
+  color: #1694cb;;
+}
+.port-title a{
+  color: #333333;
+}
 .port-icons{
   font-size: 2em; 
   float:right; 
@@ -460,6 +471,10 @@ body {
   width: 150px;
   border-radius: 100%;
   border: 1px solid red;
+}
+
+.ch-img-1{
+  padding-top: 50px;
 }
 
 .contact-logo{
