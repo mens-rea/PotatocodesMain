@@ -98,7 +98,7 @@ Template Name: About Page
 
                     <a href="<?php bloginfo('template_directory');?>/images/BUSINESSPERMITS.pdf" target="_blank"><div class="col-md-12" style="margin-top: 40px;">
                       <img src="<?php bloginfo('template_directory'); ?>/images/certified.png" style="float:right;">
-                      <p style="float:right; text-align: right;">We are a duly registered business in manila.</br> Here are our certificates.</p>
+                      <p style="float:right; text-align: right;">We are a duly registered business in Manila.</br>
                     </div></a>
 
                 </div>
