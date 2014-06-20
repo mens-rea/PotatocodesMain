@@ -823,6 +823,26 @@ body {
   margin-bottom: 40px;
 }
 
+/* 404 PAGE */
+.image404{
+  margin: 0 auto;
+  height: 300px;
+}
+.header404{
+  font-family: 'Open Sans';
+  font-weight: 800; 
+  margin-top: 75px; 
+  color: #e32828; 
+  font-size: 7em; 
+  margin-bottom: 0px;
+}
+.subheader404{
+  font-family: 'Open Sans'; 
+  font-weight: 400; 
+  font-size: 2em; 
+  margin: 0px;
+}
+
 /* PRELOADER */
 
 .cover{
