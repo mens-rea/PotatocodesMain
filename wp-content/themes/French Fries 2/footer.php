@@ -200,19 +200,7 @@
 		   $('#header3').addClass('stickToTop');
 		    $('#navbacktotop').addClass('backtotopfixed');
 	    }
-	    else if(height>4490&&height<5300){
-	    	$('.activeLinkClass').removeClass('activeLinkClass');
-	   		$('#seventhrightnav').addClass('activeLinkClass');
-
-	   		var oldSrc = "<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png";
-	   
-		   $('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/nav.png');
-		   $('#seventhrightnav').children().attr('src', '<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png');
-
-		   $('#header3').addClass('stickToTop');
-		    $('#navbacktotop').addClass('backtotopfixed');
-	    }
-	    else if(height>5300){
+	    else if(height>4490){
 	    	$('.activeLinkClass').removeClass('activeLinkClass');
 	   		$('#eightrightnav').addClass('activeLinkClass');
 
