@@ -28,7 +28,7 @@
         <!--<li><a id="fourthrightnav" href="#fourth" title="Next Section"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>-->
         <li><a id="fifthrightnav" href="#fifth" title="University of Santo Tomas - Office for Admissions"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
         <li><a id="sixthrightnav" href="#sixth" title="University of Santo Tomas - Faculty of Engineering"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
-        <li><a id="seventhrightnav" href="#seventh" title="QCPS Inc."><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
+        <!--<li><a id="seventhrightnav" href="#seventh" title="QCPS Inc."><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>-->
         <li><a id="eightrightnav" href="#eight" title="University of Santo Tomas - Computer Science Department"><img src="<?php bloginfo('template_directory'); ?>/images/nav.png" alt="Link" /></a></li>
       </ul>
           
@@ -441,8 +441,9 @@
 
       </div> <!--Second Port-->
 
+      <!--
       <div class="par-sections" id="seventh" style="padding-top: 10px;">
-        <!-- THIRD PORT -->
+
               
         <div class="row">
           <div class="container">
@@ -450,7 +451,7 @@
                  
               <div class="col-md-12" style="padding: 0px 30px;">
                         
-                <!--<a href="http://potatocodes1.comze.com" target="_blank">-->
+              
 
                   <div>
 
@@ -460,7 +461,7 @@
                     <div class="col-md-12" style="overflow: hidden;">
                       <i class="fa fa-tablet port-icons port-responsive" title="responsive design"></i>
                     </div>
-                    -->
+
                     <div class="col-md-12">
                       <div class="port-title-container">
                         <h3 class="port-title">
@@ -471,7 +472,6 @@
 
                   </div>
 
-                <!--</a>-->
                     
               </div>
 
@@ -479,8 +479,8 @@
           <div>
         </div>    
 
-      </div> <!--Third Port-->
-
+      </div> 
+      -->
 
       <div class="par-sections" id="eight" style="padding-top: 10px;">
 
