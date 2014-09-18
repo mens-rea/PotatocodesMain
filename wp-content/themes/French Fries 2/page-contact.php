@@ -132,12 +132,11 @@ Template Name: Contact Page
 
    </div>
 
-   <!-- <div id="footer" style="background-color: #333333; color: white;"> -->
-   <div id="footer">
+   <div id="footer" style="background-color: #333333; color: white;">
    	<div class="row">
    		<div class="container">
-   			<div class="text-center col-md-12">
-   				<h6 class="footer-copyright">© 2014 Potatocodes</h6>
+   			<div class="col-md-12">
+   				<h6 class="footer-copyright">COPYRIGHT @ POTATOCODES 2014</h6>
    			</div>
    		</div>
    	</div>

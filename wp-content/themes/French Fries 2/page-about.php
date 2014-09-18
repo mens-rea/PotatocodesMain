@@ -96,18 +96,10 @@ Template Name: About Page
                       </div>
                     </div>
 
-                    <a href="<?php bloginfo('template_directory');?>/images/BUSINESSPERMITS.pdf" target="_blank">
-                      <div class="col-md-12" style="margin-top: 40px;">
-                        <div class="row"> 
-                          <div class="text-center col-md-12" style="padding-bottom: 10px;">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/certified.png">
-                          </div>
-                          <div class="col-md-12">
-                            <p>We are a duly registered business in Manila.</br></p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
+                    <a href="<?php bloginfo('template_directory');?>/images/BUSINESSPERMITS.pdf" target="_blank"><div class="col-md-12" style="margin-top: 40px;">
+                      <img src="<?php bloginfo('template_directory'); ?>/images/certified.png" style="float:right;">
+                      <p style="float:right; text-align: right;">We are a duly registered business in manila.</br> Here are our certificates.</p>
+                    </div></a>
 
                 </div>
               <div>
@@ -115,12 +107,11 @@ Template Name: About Page
 
    </div>
 
-   <!-- <div id="footer" style="background-color: #333333; color: white;"> -->
-   <div id="footer">
+   <div id="footer" style="background-color: #333333; color: white;">
    	<div class="row">
    		<div class="container">
-   			<div class="text-center col-md-12">
-   				<h6 class="footer-copyright">© 2014 Potatocodes</h6>
+   			<div class="col-md-12">
+   				<h6 class="footer-copyright">COPYRIGHT @ POTATOCODES 2014</h6>
    			</div>
    		</div>
    	</div>

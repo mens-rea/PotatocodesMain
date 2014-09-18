@@ -15,27 +15,6 @@
 	$(window).load(function(){    
 	    $("#spnr").remove();
 	});
-	
-	/*
-	function hover(element) {
-		element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/ofad-full.png');
-	}
-	function unhover(element) {
-	    element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/ofad-bw.png');
-	}
-	function hover2(element) {
-		element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/engg-full.png');
-	}
-	function unhover2(element) {
-	    element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/engg-bw.png');
-	}
-	function hover3(element) {
-		element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/qcps-full.png');
-	}
-	function unhover3(element) {
-	    element.setAttribute('src', '<?php bloginfo("template_directory");?>/images/qcps-bw.png');
-	}
-	*/
 
 	//PARALLAX ANIMATIONS
 	$(document).ready(function(){
@@ -200,16 +179,16 @@
 		   $('#header3').addClass('stickToTop');
 		    $('#navbacktotop').addClass('backtotopfixed');
 	    }
-	    else if(height>4490){
+	    else if(height>4490&&height<5300){
 	    	$('.activeLinkClass').removeClass('activeLinkClass');
 	   		$('#eightrightnav').addClass('activeLinkClass');
 
 	   		var oldSrc = "<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png";
 	   
-		   $('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/nav.png');
-		   $('#eightrightnav').children().attr('src', '<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png');
+			$('img[src="' + oldSrc + '"]').attr('src', '<?php bloginfo('template_directory'); ?>/images/nav.png');
+		    $('#eightrightnav').children().attr('src', '<?php bloginfo('template_directory'); ?>/images/YOUAREHERE.png');
 
-		   $('#header3').addClass('stickToTop');
+			$('#header3').addClass('stickToTop');
 		    $('#navbacktotop').addClass('backtotopfixed');
 	    }
 	});

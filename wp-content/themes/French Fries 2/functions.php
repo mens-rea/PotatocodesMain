@@ -54,4 +54,32 @@
     // Register custom navigation walker
     require_once('wp_bootstrap_navwalker.php');
 
+    //custom post type for news
+    add_action( 'init', 'create_post_type' );
+        function create_post_type() {
+
+            register_post_type("portfolio",
+                array(
+                    'labels' => array('name' => __("Our Awesome Work"), 'singular_name' => __("portfolio")),
+                    'public' => true,
+                    'has_archive' => true,
+                    'supports' => array('title', 'editor', 'thumbnail')
+                )
+            );
+
+            /*
+            register_post_type("Home_Slider",
+                array(
+                    'labels' => array('name' => __("Home Slider"), 'singular_name' => __("Home Slider")),
+                    'public' => true,
+                    'has_archive' => true,
+                    'supports' => array('title', 'editor', 'thumbnail')
+                )
+            );
+            */
+
+
+        }
+    add_theme_support( 'post-thumbnails' );
+
 ?>
